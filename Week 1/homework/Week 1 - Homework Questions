@@ -1,0 +1,10 @@
+3. Based on the usernames of those who connected to the SSH you can tell that they are all by the same person. Not only
+    can we tell this based on the IP addresses that connected but also due to the fact that there were never two users
+    holding an SSH session at the same time. Another indicator of this is the connect , followed by a disconnect, then
+    a new connect from another user through SSH.
+
+4. What I liked most about the lab was the videos used to follow along. It really helped me gauge what part I was at and
+    how to troubleshoot certain mistakes I was making such as using something as simple as "print(x)" when i'm not
+    getting the output that i'm looking for.
+
+5. No additional questions.
