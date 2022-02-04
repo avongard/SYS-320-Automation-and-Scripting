@@ -1,3 +1,4 @@
 apache:
   proxy: "QQ.exe.*proxy.*"
   bytes: "QQ.exe.*close.*"
+  all: "QQ.exe.*"

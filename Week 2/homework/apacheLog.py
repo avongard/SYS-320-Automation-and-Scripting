@@ -45,3 +45,15 @@ def byte_events(filename, service, term):
 
     for eachValue in hosts:
         print(eachValue)
+
+
+def all_events(filename, service, term):
+    # Call syslogCheck and return the results
+    is_found = syslogCheck._syslog(filename, service, term)
+
+    # Found list
+    found = []
+
+    # Loop through results
+    for eachFound in is_found:
+        print(eachFound)
