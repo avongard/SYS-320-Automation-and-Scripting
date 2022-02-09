@@ -1,0 +1,17 @@
+1. https://docs.python.org/3/library/csv.html
+
+2. The csv.writer function below is an example of how a writer might interpret the file and specify things such as the
+   delimiter value in the instance it's not a comma.
+
+csv.writer(f, delimiter =' ',quotechar =',')
+
+3. Python utilizes dialects and specifically the qutochar shown above to decipher if the value is part of the data or
+   a delimiter.
+
+4. A heredoc is useful for multi line strings that need to be read by the parser is a way that isn't on one line and
+   can read all these characters including the new line seperating them.
+
+5. What I liked most about the homework was the goal of it to better our skills of writing and reading code so that can
+   not only find the mistakes in flawed code but also our own code and where we might run into some common issues.
+   I did not dislike the assignment and thought it was fair to give a smaller classwork assignment due to the amount of
+   time it took me to get a working set of code.
