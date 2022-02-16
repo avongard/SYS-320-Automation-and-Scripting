@@ -1,0 +1,15 @@
+Do you see anything of concern with the attempts to obtain a shell?  Provide a brief explanation.
+--
+One issue that I can see being a potential problem for obtaining a shell is that once the shell is compromised so is the
+rest of the system. It's probably no coincidence that the shell attack was the first one on the playbook.
+
+What did you like the most and least about this assignment?
+--
+Most - Creating a function of code that is useful and good for reference.
+Least - Testing.
+
+What additional questions do you have?
+--
+No additional questions but I would like to brush up on using the parser + a yml file without having to use the console
+or select individual files. The biggest area of problems for me are having to decipher which functions we worked on prev-
+iously and which ones would apply best for this assignment.
