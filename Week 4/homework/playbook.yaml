@@ -1,0 +1,21 @@
+---
+shellAttacks:
+  windowsShell: "cmd.exe"
+  linuxShell: "/bin/sh"
+  WebShell: "c99.php"
+
+---
+injectionAttempts:
+  php: "/phpmyadmib"
+  mysql: "mysql"
+
+---
+directoryTraversal:
+  password: "/etc/passwd"
+  dot: "../../"
+
+---
+contentManagement:
+  joomla: "joomla"
+  wordPress: "wordpress"
+  xmlrpc: "xmlrpc"
