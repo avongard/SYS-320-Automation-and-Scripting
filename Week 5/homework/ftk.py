@@ -4,13 +4,14 @@ import re
 import sys
 import yaml
 
-# Toolkit YAML File
-filename = '../../logs/access.log'
+# YAML playbook to read
+filename = 'toolkit.yaml'
 
 # The parser
 parser = argparse.ArgumentParser(
-    description="A forensic toolkit used to detect parse through a directory and detect executables.",
-    epilog="Developed by Michael Portegello, 20220222.")
+    description="""A forensic toolkit used to parse through a directory and detect the
+                   malicious use of executables,scripts, passwords,keys, and more.""",
+         epilog="Developed by Michael Portegello, 20220222.")
 
 # Parse arguments
 args = parser.parse_args()
