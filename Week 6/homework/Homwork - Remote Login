@@ -1,0 +1,40 @@
+Task 1
+
+    1. Module: os
+    2. Function: os.path.exists(file)
+
+    3. Module: os
+    4. Function: os.remove(file)
+
+    5. Function: input()
+
+    6. # Check if file exists and if user wants to delete
+       if os.path.exists("results.txt"):
+        userInput = input("results.txt exists. Would you like to delete? (y/n)")
+        if userInput == "y":
+            os.remove("results.txt")
+            print("results.txt deleted.")
+        if userInput == "n":
+            print("File saved.")
+            exit(0)
+        else:
+            print("Exiting.")
+            exit(0)
+
+
+Task 2
+
+    Located in the 3rd cell of the console you can find the commands.
+
+
+Task 3
+
+    Located in the 2nd cell of the console you can find the sftp upload and script execution.
+
+
+Reflection:
+
+    What I like most about the assignment was the variability of types of file we were using and connection methods
+    to find out how to execute these commands in different ways.
+
+    No additional questions.
