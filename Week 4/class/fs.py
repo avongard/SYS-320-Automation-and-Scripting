@@ -5,7 +5,6 @@ import sys
 
 
 # Parser
-'''''
 parser = argparse.ArgumentParser(
     description = "Traverses a directory and builds a forensic body file",
     epilog = "Developed by Michael Portegello, 20220210"
@@ -18,13 +17,9 @@ parser.add_argument("-d", "--directory", required="True", help="Directory that y
 args = parser.parse_args()
 
 rootdir=args.directory
-'''''
-
-# Get information from the commandLine
-# print(sys.argv)
 
 # Directory to traverse
-rootdir = sys.argv[1]
+#rootdir = sys.argv[1]
 
 # Check if the argument is a directory
 if not os.path.isdir(rootdir):
