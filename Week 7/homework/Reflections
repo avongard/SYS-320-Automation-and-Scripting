@@ -1,0 +1,13 @@
+Reflections
+
+1. The conclusion about the host analyzed is that there is a malicious user who can be seen in the auth.log and passwd
+file as being detected on the server. After analyzing the pid # and suspicious files found with kraken the information
+gathered from the threat hunt can confirm.
+
+2. What I liked the most about the assignment was the numerous tasks to complete and how they covered different aspects
+of our sftp and ssh knowledge to execute commands and fetch files.
+
+What I liked least about the assignment was no fault to the assignment but instead on myself for not taking sufficient
+time to write, test, and execute the code.
+
+3. Is there a cyber.local vpn or way to connect from the remote portal?
